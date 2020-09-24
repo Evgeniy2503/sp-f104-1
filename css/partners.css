@@ -1,0 +1,29 @@
+.partners-block {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.partners-block-title {
+
+}
+
+.partners-block-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-block-item {
+    max-width: 90px;
+    width: 100%;
+}
+
+.partners-block-link {
+}
+
+.partners-block-img {
+
+}
+
+.visibility-hidden {
+    display: none;
+}

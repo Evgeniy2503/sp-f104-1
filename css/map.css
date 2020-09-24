@@ -1,0 +1,40 @@
+.map-block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 426px;
+    background-image: url(/images/map.jpg);
+}
+
+.map-block-inner {
+    
+}
+
+.map-block-contacts {
+    padding: 50px 44px 26px;
+    background-color: #008752;
+    max-width: 380px;
+}
+
+.map-block-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.map-block-address {
+    margin-top: 17px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.map-block-phone {
+    display: inline-block;
+    margin-top: 23px;
+}
+
+.map-block-link {
+    display: block;
+    margin-top: 23px;
+}

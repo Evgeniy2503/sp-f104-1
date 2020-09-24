@@ -1,0 +1,32 @@
+.why-us-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+.why-us-block-content {
+    width: calc(100% / 12 * 5);
+}
+
+.why-us-block-title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;  
+    color: #005DAB;
+}
+
+.why-us-block-description {
+    margin-top: 46px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.why-us-block-link {
+    
+}
+
+.why-us-block-image {
+    width: 50%;
+}

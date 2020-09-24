@@ -1,0 +1,16 @@
+.about-block {
+    padding-top: 143px;
+    padding-bottom: 143px;
+    min-height: 720px;
+    background-image: url(/images/about.jpg);
+}
+
+.about-block-title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90px;
+    color: #00559D;
+}
+
+.about-block-button {
+}

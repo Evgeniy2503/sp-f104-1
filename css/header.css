@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.header-logo {
+
+}
+
+.header-nav {
+
+}
+
+.header-menu-list {
+    display: flex;
+    margin-left: 25px;
+}
+
+.header-menu-item {
+    margin-right: 15px;
+}
+
+.header-menu-link,
+.header-menu-phone {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.header-menu-link {
+    color: #333333;
+}
+
+.header-menu-link:hover {
+    color: #888888;
+}
+
+.header-menu-link:active {
+    color: #aaaaaa;
+}
+
+.header-menu-phone {
+    margin-left: auto;
+    color: #95459A;
+}
+
+.header-menu-phone:hover {
+    color: #D665DD;
+}
+
+.header-menu-phone:active {
+    color: #722A77;
+}
+
+.header-menu-link-contact {
+    margin-left: 25px;
+}
