@@ -1,8 +1,9 @@
 .why-us-block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 110px;
-    margin-bottom: 80px;
+    margin-bottom: 106px;
 }
 
 .why-us-block-content {
@@ -24,9 +25,36 @@
 }
 
 .why-us-block-link {
-    
+    margin-top: 20px;
+}
+
+.why-us-block-image-wrapper {
+    position: relative;
+    width: 50%;
+}
+
+.why-us-block-image-wrapper::before {
+    content: "";
+    position: absolute;
+    right: -110px;
+    top: 30px;
+    z-index: -1;
+    width: calc(100% - 10px);
+    height: calc(100% + 70px);
+    background-color: #008752;
+}
+
+.why-us-block-image-wrapper::after {
+    content: "";
+    display: block;
+    padding-bottom: 74%;
 }
 
 .why-us-block-image {
-    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

@@ -1,8 +1,12 @@
 .about-block {
+    margin-bottom: 80px;
     padding-top: 143px;
     padding-bottom: 143px;
     min-height: 720px;
     background-image: url(/images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .about-block-title {

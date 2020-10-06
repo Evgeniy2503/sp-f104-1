@@ -1,3 +1,4 @@
+@import "popup.css";
 @import "header.css";
 @import "about.css";
 @import "services.css";
@@ -6,34 +7,5 @@
 @import "map.css";
 @import "footer.css";
 @import "social-networks.css";
-
-* {
-    font-family: "Lato", "Arial", sans-serif;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #ffffff;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.container {
-    max-width: 1400px;
-    padding-left: 110px;
-    padding-right: 110px;
-    margin-right: auto;
-    margin-left: auto;
-}
+@import "form.css";
+@import "common.css";

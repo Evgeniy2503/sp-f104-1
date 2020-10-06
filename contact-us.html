@@ -1,127 +1,161 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>ChemDry</title>
+    <link href="css/fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/contact-us.css" rel="stylesheet">
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <img src="images/logo.png" alt="Site logo">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Catalog</a>
+<body>
+    <header class="header container">
+        <a href="/" class="header-logo-link">
+            <img src="images/logo.png" alt="Site logo" class="header-logo">
+        </a>
+
+        <nav aria-label="Навигация по сайту" class="header-nav">
+            <ul class="header-menu-list">
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Catalog</a>
                 </li>
-                <li>
-                    <a href="#">Servises</a>
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Servises</a>
                 </li>
-                <li>
-                    <a href="#">Blog</a>
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Blog</a>
                 </li>
-                <li>
-                    <a href="#">About us</a>
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">About us</a>
                 </li>
             </ul>
-
-            <a href="tel:7194319698">719-431-9698</a>
-            <a href="#">Contact  Us</a>
         </nav>
+
+        <a href="tel:7194319698" class="header-menu-phone">719-431-9698</a>
+        <a href="/contact-us.html" class="button header-menu-link-contact">CONTACT US</a>
     </header>
-    
-    <main>
-        <h1>Contact Us</h1>
-        <form>
-            <div>
-            <label for="name">Name</label>
-            <input type="text" placeholder="Ivan Ivanov" id="name">
+
+    <main class="container contact-us-page">
+        <h1 class="contact-us-page-title">Contact Us</h1>
+        <form class="contact-us-page-form">
+
+            <div class="inputs-row-two">
+                <div class="input">
+                    <label class="input-label" for="name">Name</label>
+                    <input class="input-item" type="text" placeholder="Ivan Ivanov" id="name">
+                </div>
+
+                <div class="input">
+                    <label class="input-label" for="phone">Phone</label>
+                    <input class="input-item" type="text" id="phone">
+                </div>
             </div>
 
-            <div>
-            <label for="phone">Phone</label>
-            <input type="text" id="phone">
+            <div class="input">
+                <label class="input-label" for="email">Email</label>
+                <input class="input-item" type="email" id="email">
             </div>
 
-            <div>
-            <label for="email">Email</label>
-            <input type="email" id="email">
+            <div class="inputs-group">
+                <p class="inputs-group-title">Payment Methods</p>
+
+                <div class="inputs-row">
+                    <div class="check-radio">
+                        <input class="check-radio-item visibility-hidden" type="checkbox" id="cash">
+                        <label class="check-radio-label" for="cash">Cash</label>
+                    </div>
+
+                    <div class="check-radio">
+                        <input class="check-radio-item visibility-hidden" type="checkbox" id="credit-cart">
+                        <label class="check-radio-label" for="credit-cart">Сredit Сard</label>
+                    </div>
+
+                    <div class="check-radio">
+                        <input class="check-radio-item visibility-hidden" type="checkbox" id="receipt" disabled>
+                        <label class="check-radio-label" for="receipt">Receipt</label>
+                    </div>
+                </div>
             </div>
 
-            <div>
-            <p>Payment Methods</p>
-
-            <div>
-                <input type="checkbox" id="cash">
-                <label for="cash">Cash</label>
+            <div class="input">
+                <label class="input-label" for="city-of-birth">City of Birth</label>
+                <input class="input-item" type="text" id="city-of-birth">
             </div>
 
-            <div>
-                <input type="checkbox" id="credit-cart">
-                <label for="credit-cart">Сredit Сard</label>
+            <div class="inputs-group">
+                <p class="inputs-group-title">Do you need a report on the services provided?</p>
+
+                <div class="inputs-row">
+                    <div class="check-radio">
+                        <input class="check-radio-item visibility-hidden" type="radio" id="is-report-yes" name="report" checked>
+                        <label class="check-radio-label circle" for="is-report-yes">Yes</label>
+                    </div>
+
+                    <div class="check-radio">
+                        <input class="check-radio-item visibility-hidden" type="radio" id="is-report-no" name="report">
+                        <label class="check-radio-label circle" for="is-report-no">No</label>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <input type="checkbox" id="receipt">
-                <label for="receipt">Receipt</label>
-            </div>
-            </div>
-
-            <div>
-            <label for="city-of-birth">City of Birth</label>
-            <input type="text" id="city-of-birth">
+            <div class="input">
+                <label class="input-label" for="message">Message</label>
+                <textarea class="input-item" id="message"></textarea>
             </div>
 
-            <div>
-            <p>Do you need a report on the services provided?</p>
-
-            <div>
-                <input type="radio" id="is-report-yes" name="report" checked>
-                <label for="is-report-yes">Yes</label>
-            </div>
-
-            <div>
-                <input type="radio" id="is-report-no" name="report">
-                <label for="is-report-no">No</label>
-            </div>
-            </div>
-
-            <div>
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
-            </div>
-
-            <button>Submit</button>
+            <button class="button contact-us-page-button">SUBMIT</button>
         </form>
     </main>
 
-    <article>
-        <h2>Chem-Dry</h2>
-        <p>9420 Cedar CT, Thornton, CO 80229</p>
-        <a href="tel:7206059399">(720) 605-9399</a>
+    <article class="map-block">
+        <div class="map-block-inner container">
+            <div class="map-block-contacts">
+                <h2 class="map-block-title">Chem-Dry</h2>
+                <p class="map-block-address">9420 Cedar CT, Thornton, CO 80229</p>
+                <a class="map-block-phone" href="tel:7206059399">(720) 605-9399</a>
+                <div class="map-block-link-wrapper">
+                    <a href="#" class="button button-purpure map-block-link">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
     </article>
 
-    <footer>
-        <section>
-            <h2>Subscribe to our social networks</h2>
-            <ul>
-                <li>
-                    <a href="#" class="facebook"></a>
-                </li>
-                <li>
-                    <a href="#" class="twitter"></a>
-                </li>
-                <li>
-                    <a href="#" class="google"></a>
-                </li>
-                <li>
-                    <a href="#" class="linkedin"></a>
-                </li>
-                <li>
-                    <a href="#" class="youtube"></a>
-                </li>
-            </ul>
-        </section>
+    <footer class="footer">
+        <div class="footer-inner container">
+            <section class="social-networks-block">
+                <h2 class="social-networks-block-title">Subscribe To Our Social Networks</h2>
+                <ul class="social-networks-block-list">
+                    <li class="social-networks-block-item">
+                        <a href="#" class="social-networks-block-link facebook">
+                            <span class="visibility-hidden">Follow to facebook</span>
+                        </a>
+                    </li>
+                    <li class="social-networks-block-item">
+                        <a href="#" class="social-networks-block-link twitter">
+                            <span class="visibility-hidden">Follow to twitter</span>
+                        </a>
+                    </li>
+                    <li class="social-networks-block-item">
+                        <a href="#" class="social-networks-block-link google">
+                            <span class="visibility-hidden">Follow to google</span>
+                        </a>
+                    </li>
+                    <li class="social-networks-block-item">
+                        <a href="#" class="social-networks-block-link linkedin">
+                            <span class="visibility-hidden">Follow to linkedin</span>
+                        </a>
+                    </li>
+                    <li class="social-networks-block-item">
+                        <a href="#" class="social-networks-block-link youtube">
+                            <span class="visibility-hidden">Follow to youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </footer>
 
 </body>
+
 </html>
