@@ -1,5 +1,4 @@
 .about-block {
-    margin-bottom: 80px;
     padding-top: 143px;
     padding-bottom: 143px;
     min-height: 720px;
@@ -10,11 +9,15 @@
 }
 
 .about-block-title {
+    margin-top: 8px;
+    max-width: 800px;
     font-weight: 900;
     font-size: 90px;
     line-height: 90px;
     color: #00559D;
+    letter-spacing: -1px;
 }
 
 .about-block-button {
+    margin-top: 40px;
 }
