@@ -1,13 +1,14 @@
 .why-us-block {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 110px;
     margin-bottom: 106px;
 }
 
 .why-us-block-content {
     width: calc(100% / 12 * 5);
+    margin-top: 7px;
 }
 
 .why-us-block-title {
@@ -18,19 +19,20 @@
 }
 
 .why-us-block-description {
-    margin-top: 46px;
+    margin-top: 37px;
+    max-width: 475px;
     font-size: 18px;
     line-height: 28px;
     color: #000000;
 }
 
 .why-us-block-link {
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .why-us-block-image-wrapper {
     position: relative;
-    width: 50%;
+    width: calc(50% - 10px);
 }
 
 .why-us-block-image-wrapper::before {

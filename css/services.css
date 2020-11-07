@@ -29,10 +29,11 @@
 }
 
 .services-block-item-title {
-    margin-top: 19px;
+    margin-top: 16px;
     font-size: 30px;
     line-height: 36px;
     color: #2C3036;
+    max-width: 200px;
 }
 
 .services-block-item-description {
