@@ -4,18 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>ChemDry</title>
-    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
     <link href="css/fonts/stylesheet.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <div class="popup">
+    <section class="popup js-popup">
+        <h2 class="visibility-hidden">Popup contact us</h2>
         <form class="popup-form">
-            <button type="button" class="popup-form-button-close" id="popup-close-button">
-                <span class="visibility-hidden">Popup close button</span>
-            </button>
+            <button type="button" class="popup-form-button-close" id="popup-close-button"></button>
             <div class="inputs-row-two">
                 <div class="input">
                     <label class="input-label" for="name">Name</label>
@@ -40,7 +38,7 @@
 
             <button class="button popup-form-button-submit">SUBMIT</button>
         </form>
-    </div>
+    </section>
 
     <header class="header container">
         <img src="images/logo.png" alt="Site logo" class="header-logo">
